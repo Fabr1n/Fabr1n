@@ -1,19 +1,19 @@
-# 👨🏻‍💻 **Tiago H. S. Fabrini**
+# 👨🏻‍💻 Tiago H. S. Fabrini
 
 **`Software Engineering Student`**
 
-My name is **Tiago Henrique Silva Fabrini**, I'm 18 years old and I'm brazililian.  
-Currently, I am pursuing a **Bachelor's degree in Software Engineering** at the **Federal University of Goiás (UFG)**.   
+Hi! I'm **Tiago Henrique Silva Fabrini**, 18 years old, from Brazil.  
+Currently, I am pursuing a **Bachelor's degree in Software Engineering** at the **Federal University of Goiás (UFG)**.  
 
-I am particularly interested in algorithms, **artificial intelligence**, and **scientific computing**. I also have a strong interest in research and technological development related to AI, especially initiatives connected to institutions such as the **Center of Excellence in Artificial Intelligence (CEIA)** and the **AKCIT research network**.   
+I’m particularly interested in algorithms, **artificial intelligence**, and **scientific computing**. I also have a strong interest in research and technological development related to AI, especially initiatives connected to institutions such as the **Center of Excellence in Artificial Intelligence (CEIA)** and the **AKCIT research network**.  
 
-My goal is to deepen **my knowledge** in computing and contribute to **impactful technological** and **scientific projects**.   
+My goal is to deepen **my knowledge** in computing and contribute to **impactful technological** and **scientific projects**.  
 
-I completed my high school education at the **Federal Institute of Goiás (IFG)**, where I earned a **technical degree** in **Chemistry**.  
+I completed my high school at the **Federal Institute of Goiás (IFG)**, earning a **technical degree in Chemistry**.  
 
 ---
 
-### 🔗 Academic and Professional Profiles
+### 🔗 Academic & Professional Profiles
 
 <p align="left">
 <a href="https://orcid.org/0009-0004-0717-1774">
@@ -35,55 +35,23 @@ I completed my high school education at the **Federal Institute of Goiás (IFG)*
 
 ---
 
-### 💻 Languages and Technologies
+### 💻 Languages & Technologies
 
-<img 
-align="left"
-alt="Python"
-title="Python"
-width="30px"
-style="padding-right:10px;"
-src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-/>
+<img align="left" alt="Python" title="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />  
+<img align="left" alt="Go" title="Go" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" />  
+<img align="left" alt="Git" title="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
 
-<img 
-align="left"
-alt="Go"
-title="Go"
-width="30px"
-style="padding-right:10px;"
-src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg"
-/>
-
-<img 
-align="left"
-alt="Git"
-title="Git"
-width="30px"
-style="padding-right:10px;"
-src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
-/>
-
-<br/>
-<br/>
+<br/><br/>
 
 ---
 
 ### 📊 GitHub Statistics
 
 <p>
-<img 
-align="left"
-alt="GitHub Stats"
-height="200"
-style="padding-right:10px;"
-src="https://github-readme-stats.vercel.app/api?username=Fabr1n&show_icons=true&theme=tokyonight&include_all_commits=true"
-/>
-
-<img
-align="left"
-alt="Top Languages"
-height="200"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fabr1n&theme=tokyonight&layout=compact&langs_count=6"
-/>
+<img align="left" alt="GitHub Stats" height="200" style="padding-right:10px;" src="https://github-readme-stats.vercel.app/api?username=Fabr1n&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
+<img align="left" alt="Top Languages" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fabr1n&theme=tokyonight&layout=compact&langs_count=6" />
 </p>
+
+---
+
+![Snake animation](https://github.com/Fabr1n/Fabr1n/blob/output/github-contribution-grid-snake.svg)
