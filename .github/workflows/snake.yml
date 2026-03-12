@@ -2,25 +2,24 @@ name: Snake animation
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Atualiza todo dia à meia-noite UTC
-  workflow_dispatch: # Permite rodar manualmente
+    - cron: '0 0 * * *' # todo dia à meia-noite UTC
+  workflow_dispatch: # permite rodar manualmente
 
 jobs:
-  generate-snake:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Generate GitHub contributions snake
-        uses: kordy/take-snake-action@v1
+      - name: Generate snake
+        uses: liqd/github-contribution-snake@v1.2.0
         with:
-          fileName: 'github-contribution-grid-snake.svg' # Nome do arquivo gerado
-          color: '36abf7' # Azul estilo Fabrini
-          background: '0D1117' # Fundo dark padrão GitHub
-          radius: '4' # Cantos arredondados do snake
-          width: '20' # Largura das células
-          height: '20' # Altura das células
+          fileName: 'github-contribution-grid-snake.svg'
+          color: '36abf7'
+          background: '0D1117'
+          width: 20
+          height: 20
+          radius: 4
 
       - name: Commit and push snake
         run: |
