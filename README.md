@@ -54,4 +54,4 @@ I completed my high school at the **Federal Institute of Goiás (IFG)**, earning
 
 ---
 
-![Snake animation](https://github.com/Fabr1n/Fabr1n/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/Fabr1n/Fabr1n/blob/main/github-contribution-grid-snake.svg)
