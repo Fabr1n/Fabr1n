@@ -1,0 +1,31 @@
+name: Snake animation
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Atualiza todo dia à meia-noite UTC
+  workflow_dispatch: # Permite rodar manualmente
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate GitHub contributions snake
+        uses: kordy/take-snake-action@v1
+        with:
+          fileName: 'github-contribution-grid-snake.svg' # Nome do arquivo gerado
+          color: '36abf7' # Azul estilo Fabrini
+          background: '0D1117' # Fundo dark padrão GitHub
+          radius: '4' # Cantos arredondados do snake
+          width: '20' # Largura das células
+          height: '20' # Altura das células
+
+      - name: Commit and push snake
+        run: |
+          git config user.name "Fabrini Bot"
+          git config user.email "fabrini-bot@example.com"
+          git add github-contribution-grid-snake.svg
+          git commit -m "Update contribution snake [skip ci]" || echo "No changes to commit"
+          git push
