@@ -4,7 +4,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # a cada 6 horas
+    - cron: "0 */6 * * *"  # atualiza a cada 6 horas
   workflow_dispatch:        # permite rodar manualmente
 
 jobs:
@@ -14,22 +14,22 @@ jobs:
       # Faz checkout do repositório
       - uses: actions/checkout@v3
 
-      # Gera o snake SVG
+      # Gera o snake SVG com cores personalizadas
       - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Fabr1n
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg
-            color: '36ABF7'       # Azul da cobra
-    background: '1F1F1F'  # Cinza escuro de fundo
-    
+          color: '36ABF7'        # Azul da cobra
+          background: '1F1F1F'   # Cinza escuro de fundo
+
       # Configura Git
       - run: |
           git config user.name "Fabrini Bot"
           git config user.email "actions@github.com"
 
-      # Commit e push das alterações
+      # Commit e push das alterações direto no main
       - run: |
           git add dist/
           git commit -m "Update snake animation [skip ci]" || echo "No changes to commit"
