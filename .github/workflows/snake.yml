@@ -21,7 +21,9 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg
-
+            color: '36ABF7'       # Azul da cobra
+    background: '1F1F1F'  # Cinza escuro de fundo
+    
       # Configura Git
       - run: |
           git config user.name "Fabrini Bot"
