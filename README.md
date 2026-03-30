@@ -39,6 +39,45 @@ I completed my high school at the **Federal Institute of Goiás (IFG)**, earning
 
 <img align="left" alt="Python" title="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />  
 <img align="left" alt="Go" title="Go" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" />  
+<img align="left" alt="JavaScript" title="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+<img align="left" alt="NodeJS" title="NodeJS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
+<img align="left" alt="Express" title="Express" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
+<img align="left" alt="HTML5" title="HTML5" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+<img align="left" alt="CSS3" title="CSS3" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+<img align="left" alt="MySQL" title="MySQL" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
+<img align="left" alt="Git" title="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+
+<br/><br/>
+
+---
+
+### 🏆 Featured Projects & Achievements
+
+- **[GO UAI TECH Hackathon](https://github.com/Fabr1n/HACKATHON)**: Participated in developing the solution that secured **4th place** for our team, utilizing JavaScript, Node.js, Express, HTML5, and CSS3.
+<br/>
+<a href="https://github.com/Fabr1n/HACKATHON">
+  <img align="left" alt="Hackathon Repo Card" src="https://github-readme-stats.vercel.app/api/pin/?username=Fabr1n&repo=HACKATHON&theme=tokyonight" />
+</a>
+
+<br clear="both"/>
+<br/>
+
+---
+
+### 📊 GitHub Statistics
+
+<p>
+<img align="left" alt="GitHub Stats" height="200" style="padding-right:10px;" src="https://github-readme-stats.vercel.app/api?username=Fabr1n&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&cache_seconds=1800" />
+<img align="left" alt="Top Languages" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fabr1n&theme=tokyonight&layout=compact&langs_count=6&cache_seconds=1800" />
+</p>
+
+<br clear="both"/>
+<br/>
+
+---
+
+![Snake animation](https://raw.githubusercontent.com/Fabr1n/Fabr1n/main/dist/github-snake.svg)
+<img align="left" alt="Go" title="Go" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" />  
 <img align="left" alt="Git" title="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
 
 <br/><br/>
