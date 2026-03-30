@@ -15,7 +15,7 @@ I completed my high school at the **Federal Institute of Goiás (IFG)**, earning
 
 ### 🔗 Academic & Professional Profiles
 
-<p>
+<p align="left">
 <a href="https://orcid.org/0009-0004-0717-1774">
 <img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"/>
 </a>
@@ -52,17 +52,19 @@ I completed my high school at the **Federal Institute of Goiás (IFG)**, earning
 
 - **[GO UAI TECH Hackathon](https://github.com/Fabr1n/HACKATHON)**: Participated in developing the solution that secured **4th place** for our team, utilizing JavaScript, Node.js, Express, HTML5, and CSS3.
 
-<a href="https://github.com/Fabr1n/HACKATHON">
-  <img alt="Hackathon Repo Card" src="https://github-readme-stats.vercel.app/api/pin/?username=Fabr1n&repo=HACKATHON&theme=tokyonight" />
-</a>
+<p align="center">
+  <a href="https://github.com/Fabr1n/HACKATHON">
+    <img alt="Hackathon Repo Card" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Fabr1n&repo=HACKATHON&theme=tokyonight" />
+  </a>
+</p>
 
 ---
 
 ### 📊 GitHub Statistics
 
-<p>
-  <img alt="GitHub Stats" height="195" src="https://github-readme-stats.vercel.app/api?username=Fabr1n&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-  <img alt="Top Languages" height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fabr1n&theme=tokyonight&layout=compact&langs_count=6" />
+<p align="center">
+  <img alt="GitHub Stats" height="195" style="padding-right:10px;" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Fabr1n&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
+  <img alt="Top Languages" height="195" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Fabr1n&theme=tokyonight&layout=compact&langs_count=6" />
 </p>
 
 ---
