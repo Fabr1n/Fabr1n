@@ -50,7 +50,7 @@ I completed my high school at the **Federal Institute of Goiás (IFG)**, earning
 
 ### 🏆 Featured Projects & Achievements
 
-- **[GO UAI TECH Hackathon](https://github.com/Fabr1n/HACKATHON)**: Participated in developing the solution that secured **4th place** for our team, utilizing JavaScript, Node.js, Express, HTML5, and CSS3.
+- **[GO! Uai Tech 3 Hackathon](https://github.com/Fabr1n/HACKATHON)**: Participated in developing the solution that secured **4th place** for our team, utilizing JavaScript, Node.js, Express, HTML5, and CSS3.
 
 <p align="center">
   <a href="https://github.com/Fabr1n/HACKATHON">
