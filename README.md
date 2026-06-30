@@ -4,7 +4,8 @@
 
 Hi! I'm **Tiago Henrique Silva Fabrini**, 19 years old, from Brazil.
 
-Currently, I am pursuing a **Bachelor's degree in Software Engineering** at the **Federal University of Goiás (UFG)**, . I was also approved for **Physics (Licentiate)** at the **University of São Paulo (USP)** via ENEM-USP, but chose to pursue Software Engineering at UFG instead.
+Currently, I am pursuing a **Bachelor's degree in Software Engineering** at the **Federal University of Goiás (UFG)**.
+I was also approved for **Physics (Licentiate)** at the **University of São Paulo (USP)** via ENEM-USP, but chose to pursue Software Engineering at UFG instead.
 
 I'm particularly interested in algorithms, **artificial intelligence**, and **scientific computing**. I also have a strong interest in research and technological development related to AI, especially initiatives connected to institutions such as the **Center of Excellence in Artificial Intelligence (CEIA)** and the **AKCIT research network**, where I work hands-on with humanoid and quadruped robotics (**Unitree G1** and **Go2**).
 
