@@ -4,6 +4,9 @@
 
 Hi! I'm **Tiago Henrique Silva Fabrini**, I'm 19, I'm Brazilian.
 
+Portuguese (Native)
+English (C1 level)
+
 Currently, I am pursuing a **Bachelor's degree in Software Engineering** at the **Federal University of Goiás (UFG)**.
 I was also approved for **Physics (Licentiate)** at the **University of São Paulo (USP)** via ENEM-USP, but chose to pursue Software Engineering at UFG instead.
 
