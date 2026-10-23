@@ -130,13 +130,13 @@ const parts=[];
 const T=(x,y,s,size=14,c='#8b949e',w=400)=>parts.push(text(x,y,s,size,c,w));
 const line=(x1,y1,x2,y2,c='#30363d')=>parts.push(`<path d="M${x1} ${y1}H${x2}" stroke="${c}"/>`);
 T(24,34,'Tiago Fabrini',24,'#58a6ff',650);
-T(24,58,'Researcher @ CEIA · PDC · Software Engineering @ UFG',12);
+T(24,58,'CEIA / PDC · Software Engineering undergraduate @ UFG',12);
 T(24,91,contributions+' contributions',17,'#c9d1d9',600);
 T(24,113,days[0].date+' — '+days.at(-1).date,11);
 for(const [i,d] of days.slice(-20).entries()) parts.push(`<rect x="${270+i*9}" y="85" width="7" height="7" rx="1" fill="${green[d.level]}"/>`);
 const summary=[
 [repositories.length+' public repositories',profile.followers+' followers'],
-[stats[1][0]+' stars · owned originals',original.reduce((n,r)=>n+r.forks_count,0)+' forks · owned originals'],
+[stats[1][0]+(stats[1][0]===1?' star':' stars')+' · owned originals',original.reduce((n,r)=>n+r.forks_count,0)+' forks · owned originals'],
 [events.length+' recent public events',Object.keys(languages).length+' languages in public code']
 ];
 summary.forEach((row,i)=>{T(24,150+i*28,row[0],13,'#c9d1d9');T(270,150+i*28,row[1],13,'#c9d1d9');});
@@ -150,7 +150,7 @@ T(24,431,'Contributions by weekday',12);
 const maxD=Math.max(1,...weekday);
 weekday.forEach((n,i)=>{const x=30+i*61,height=n/maxD*76;parts.push(`<rect x="${x}" y="${536-height}" width="20" height="${height||1}" rx="4" fill="#26a641"/>`);T(x,530-height,n,10);T(x-2,554,['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][i],11);});
 T(24,600,'Languages & technologies',17,'#58a6ff',600);
-const tech=['Python','Go','JavaScript','Node.js','Express','MySQL','Git','HTML / CSS'];
+const tech=['Python','Go','JavaScript','Node.js','PostgreSQL','MySQL','Git','HTML / CSS'];
 tech.forEach((name,i)=>{const x=24+(i%4)*110,y=619+Math.floor(i/4)*35;parts.push(`<rect x="${x}" y="${y}" width="100" height="26" rx="5" fill="#161b22" stroke="#30363d"/>`);T(x+10,y+18,name,12,'#c9d1d9');});
 T(24,716,'Interests: AI · Robotics · Scientific computing',12);
 T(510,34,'Contributions calendar',17,'#58a6ff',600);
@@ -171,19 +171,23 @@ for(const d of days) {
  parts.push(`<polygon points="${top}" fill="${d.count?green[d.level]:'#21262d'}"><title>${d.date}: ${d.count} contributions</title></polygon>`);
 }
 T(510,279,'Less',10);green.forEach((c,i)=>parts.push(`<rect x="${542+i*15}" y="269" width="11" height="11" rx="2" fill="${c}"/>`));T(624,279,'More',10);
-T(510,316,'Spotify · Recently played',17,'#1db954',600);
-T(510,338,'Listening history · refreshed with the dashboard',11);
 if(spotify.status==='connected'&&spotify.tracks.length) {
+ T(510,316,'Spotify · Recently played',17,'#1db954',600);
+ T(510,338,'Recent listening · updated every six hours',11);
  spotify.tracks.forEach((track,i)=>{
- const y=370+i*47;
- T(514,y,'♫',21,'#1db954');
- T(544,y,track.name.length>43?track.name.slice(0,40)+'…':track.name,14,'#c9d1d9');
- T(544,y+17,track.artists.length>55?track.artists.slice(0,52)+'…':track.artists,11);
+  const y=370+i*47;
+  T(514,y,'♫',21,'#1db954');
+  T(544,y,track.name.length>43?track.name.slice(0,40)+'…':track.name,14,'#c9d1d9');
+  T(544,y+17,track.artists.length>55?track.artists.slice(0,52)+'…':track.artists,11);
  });
 } else {
- T(514,380,spotify.status==='not-connected'?'Spotify connection pending':spotify.status==='connected'?'No recent tracks returned':'Spotify temporarily unavailable',14,'#c9d1d9');
- T(514,405,spotify.status==='not-connected'?'Ready for your authorization.':'Listening data will refresh on the next successful run.',12);
- T(514,428,'No sample tracks or simulated listening data.',11);
+ T(510,316,'Research & engineering',17,'#58a6ff',600);
+ T(510,341,'CEIA · Programa de Desenvolvimento de Competências',11);
+ T(514,376,'Artificial intelligence',14,'#c9d1d9',600);
+ T(514,397,'Algorithms · Scientific computing',12);
+ T(514,432,'Robotics experience',14,'#c9d1d9',600);
+ T(514,453,'Unitree G1 humanoid · Unitree Go2 quadruped',12);
+ T(514,484,'Software Engineering undergraduate · UFG',12);
 }
 T(510,520,'Most used languages',17,'#58a6ff',600);
 T(510,543,'Code bytes · public owned repositories · excludes forks',11);
@@ -192,7 +196,7 @@ rows.forEach(([name,bytes],i)=>{const width=total?bytes/total*442:0;parts.push(`
 rows.forEach(([name,bytes],i)=>{const x=510+(i%2)*220,y=599+Math.floor(i/2)*25;parts.push(`<circle cx="${x+4}" cy="${y-4}" r="4" fill="${palette[i]}"/>`);T(x+15,y,name+' '+(total?bytes/total*100:0).toFixed(1)+'%',12);});
 T(510,716,'Language share measures code volume, not proficiency.',11);
 line(24,740,952,740);
-T(24,765,'Updated '+updated+' · GitHub public data · Spotify requires a separate connection',10);
+T(24,765,'Updated '+updated+' · Public GitHub activity · Language shares by code volume',10);
 const dashboard=`<svg xmlns="http://www.w3.org/2000/svg" width="976" height="784" viewBox="0 0 976 784" role="img" aria-labelledby="dashboard-title"><title id="dashboard-title">Tiago Fabrini: GitHub activity, isometric contributions, languages and Spotify listening status</title><rect width="976" height="784" rx="12" fill="#0d1117"/><g font-family="Segoe UI,Arial,sans-serif">${parts.join('')}</g></svg>\n`;
 await writeFile(`${output}/dashboard.svg`,dashboard);
 await writeFile(`${output}/calendar.json`,JSON.stringify({updated:now.toISOString(),source:`https://github.com/users/${user}/contributions`,contributions,days},null,2)+'\n');
