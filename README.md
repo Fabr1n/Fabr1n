@@ -41,8 +41,8 @@ A selection of development work and learning repositories.
 
 | Project | Overview | Technologies |
 | :--- | :--- | :--- |
-| **[Python studies](https://github.com/Fabr1n/ProjetoPython)** | Python classes and programming practice | Python |
-| **[UFG coursework](https://github.com/Fabr1n/ip-2026-01)** | Academic programming activities | Go |
+| **[Python studies](https://github.com/Fabr1n/ProjetoPython)** | Object-oriented exercises and a Snake game with Turtle | Python |
+| **[UFG coursework](https://github.com/Fabr1n/ip-2026-01)** | Programming exercises and an HTTP server project | Go · PostgreSQL |
 | **[MEG platform](https://github.com/Fabr1n/HACKATHON)** | Platform connecting women entrepreneurs in Goiás with mentors, courses and opportunities | JavaScript · Node.js · Express · HTML · CSS |
 
 <details>
@@ -53,6 +53,16 @@ Contributed to the development of **MEG — Mulheres Empreendedoras Goianas**, w
 [Explore the project →](https://github.com/Fabr1n/HACKATHON)
 
 </details>
+
+## GitHub metrics
+
+<p align="center">
+  <img src="./assets/metrics/overview.svg" width="100%" alt="Public repositories, stars, followers and languages on GitHub" />
+  <img src="./assets/metrics/languages.svg" width="100%" alt="Language distribution by code bytes in owned public repositories, excluding forks" />
+  <img src="./assets/metrics/activity.svg" width="100%" alt="Recent public GitHub events grouped by activity type" />
+</p>
+
+<sub>Updated daily from the GitHub API. Language shares represent code volume, not proficiency. Activity is a sample of up to 300 public events, not a complete contribution or commit history. Visual inspiration: [lowlighter/metrics](https://github.com/lowlighter/metrics).</sub>
 
 ## Education & languages
 
