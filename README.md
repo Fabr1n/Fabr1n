@@ -4,15 +4,15 @@
 Artificial intelligence, robotics and scientific computing.
 
 <p>
-  <a href="https://ceia.ufg.br/"><img src="./assets/branding/ceia.png" width="176" height="54" alt="CEIA — Centro de Excelência em Inteligência Artificial" /></a>&nbsp;
-  <a href="https://www.ufg.br/"><img src="./assets/branding/ufg.png" width="176" height="54" alt="Universidade Federal de Goiás" /></a>
+  <a href="https://ceia.ufg.br/"><img src="./assets/branding/ceia.png?v=2" width="176" height="54" alt="CEIA — Centro de Excelência em Inteligência Artificial" /></a>&nbsp;
+  <a href="https://inf.ufg.br/"><img src="./assets/branding/inf.png?v=2" width="176" height="54" alt="INF — Instituto de Informática da Universidade Federal de Goiás" /></a>
 </p>
 
 <p>
-  <a href="https://www.linkedin.com/in/tiagofabrini/"><img src="./assets/branding/linkedin.png" width="128" height="39" alt="LinkedIn — Tiago Fabrini" /></a>&nbsp;
-  <a href="https://orcid.org/0009-0004-0717-1774"><img src="./assets/branding/orcid.png" width="128" height="39" alt="ORCID — 0009-0004-0717-1774" /></a>&nbsp;
-  <a href="https://lattes.cnpq.br/3152728960471144"><img src="./assets/branding/lattes.png" width="128" height="39" alt="Currículo Lattes — Tiago Fabrini" /></a>&nbsp;
-  <a href="mailto:fabrini@discente.ufg.br"><img src="./assets/branding/email.png" width="128" height="39" alt="Email — fabrini@discente.ufg.br" /></a>
+  <a href="https://www.linkedin.com/in/tiagofabrini/"><img src="./assets/branding/linkedin.png?v=2" width="128" height="39" alt="LinkedIn — Tiago Fabrini" /></a>&nbsp;
+  <a href="https://orcid.org/0009-0004-0717-1774"><img src="./assets/branding/orcid.png?v=2" width="128" height="39" alt="ORCID — 0009-0004-0717-1774" /></a>&nbsp;
+  <a href="https://lattes.cnpq.br/3152728960471144"><img src="./assets/branding/lattes.png?v=2" width="128" height="39" alt="Currículo Lattes — Tiago Fabrini" /></a>&nbsp;
+  <a href="mailto:fabrini@discente.ufg.br"><img src="./assets/branding/email.png?v=2" width="128" height="39" alt="Email — fabrini@discente.ufg.br" /></a>
 </p>
 
 <p align="center">
