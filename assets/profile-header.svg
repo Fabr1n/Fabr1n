@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+<title id="title">Tiago Fabrini — Research and Software Engineering</title>
+<desc id="desc">Researcher at CEIA, PDC participant and Software Engineering student at UFG. Dark navy banner with an abstract connected network.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#14283c"/></linearGradient><linearGradient id="accent"><stop stop-color="#58a6ff"/><stop offset="1" stop-color="#56d4bc"/></linearGradient></defs>
+<rect width="1200" height="280" rx="16" fill="url(#bg)"/>
+<rect x="40" y="46" width="4" height="185" rx="2" fill="url(#accent)"/>
+<g font-family="Segoe UI, Arial, sans-serif">
+<text x="66" y="70" font-size="14" letter-spacing="3" fill="#56d4bc">RESEARCH · SOFTWARE · ROBOTICS</text>
+<text x="62" y="132" font-size="48" font-weight="700" fill="#f0f6fc">Tiago Fabrini</text>
+<text x="66" y="174" font-size="21" fill="#c5d4e5">Researcher at CEIA · PDC</text>
+<text x="66" y="207" font-size="17" fill="#8ea7bf">Software Engineering @ Federal University of Goiás</text>
+</g>
+<g fill="none" stroke="#365773" stroke-width="1.5">
+<path d="M865 63 1000 45 1118 102 1055 207 922 228 865 63 1055 207 1000 45 922 228 1118 102 865 63"/>
+<circle cx="1000" cy="137" r="100" stroke="#203e56"/>
+<path d="M865 63 1000 137 1118 102 M922 228 1000 137 1055 207 M1000 45V137"/>
+</g>
+<g fill="#58a6ff"><circle cx="865" cy="63" r="6"/><circle cx="1118" cy="102" r="6"/><circle cx="922" cy="228" r="6"/></g>
+<g fill="#56d4bc"><circle cx="1000" cy="45" r="6"/><circle cx="1055" cy="207" r="6"/><circle cx="1000" cy="137" r="10"/></g>
+</svg>
