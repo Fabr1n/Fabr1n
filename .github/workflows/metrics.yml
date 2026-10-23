@@ -14,7 +14,7 @@ permissions:
 
 concurrency:
   group: profile-metrics
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   render:
