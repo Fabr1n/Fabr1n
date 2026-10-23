@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-23T18:32:50.367Z",
+  "updated": "2026-10-23T18:57:35.014Z",
   "scope": "Public data only. Languages exclude forks. Events are a sample of at most 300.",
   "repositories": 5,
   "stars": 1,
   "followers": 30,
   "languages": {
-    "JavaScript": 91703,
+    "JavaScript": 97613,
     "HTML": 362384,
     "Python": 42362,
     "PowerShell": 4144,
@@ -16,8 +16,9 @@
     "Go": 70410,
     "Portugol": 2038
   },
-  "eventCount": 24,
+  "eventCount": 25,
   "eventTypes": {
+    "PullRequestReviewEvent": 1,
     "PushEvent": 10,
     "WatchEvent": 5,
     "CreateEvent": 2,
