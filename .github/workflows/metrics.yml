@@ -14,7 +14,7 @@ permissions:
 
 concurrency:
   group: profile-metrics
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   render:
@@ -40,5 +40,9 @@ jobs:
             exit 0
           fi
           git commit -m "Refresh public profile metrics"
-          git pull --rebase origin main
+          if ! git pull --rebase origin main; then
+            git rebase --abort || true
+            echo "Skipping push because main advanced with conflicting generated metrics."
+            exit 0
+          fi
           git push origin HEAD:main
