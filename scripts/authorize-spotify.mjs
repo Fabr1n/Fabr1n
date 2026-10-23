@@ -12,12 +12,15 @@ const server=http.createServer(async(req,res)=>{
   res.setHeader('Content-Type','text/html; charset=utf-8');
   res.setHeader('Referrer-Policy','no-referrer');
   res.setHeader('X-Content-Type-Options','nosniff');
-  res.setHeader('Content-Security-Policy',"default-src 'none'; style-src 'unsafe-inline'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'");
+  res.setHeader('Content-Security-Policy',"default-src 'none'; style-src 'unsafe-inline'; form-action 'self' https://accounts.spotify.com; frame-ancestors 'none'; base-uri 'none'");
   if(req.headers.host!=='127.0.0.1:8888'){res.writeHead(403);return res.end('Host inválido');}
   const url=new URL(req.url,base);
   if(req.method==='GET'&&url.pathname==='/') return res.end(page(`<h1>Spotify no seu GitHub</h1><p>Este assistente local solicita apenas leitura das músicas recentes. Os nomes e artistas das três faixas distintas mais recentes serão publicados no seu perfil do GitHub.</p><p>Crie um app no <a href="https://developer.spotify.com/dashboard" target="_blank" rel="noreferrer">Spotify Developer Dashboard</a> e configure o Redirect URI como <code>${redirect}</code>.</p><form action="/start" method="post"><input type="hidden" name="csrf" value="${csrf}"><label>Client ID<input name="client_id" required autocomplete="off"></label><label>Client Secret<input name="client_secret" type="password" required autocomplete="off"></label><button>Continuar para autorização no Spotify</button></form><p>Os valores ficam somente na memória deste processo. Não os envie pelo chat.</p>`));
   if(req.method==='POST'&&url.pathname==='/start'){
-    if(req.headers.origin!==base){res.writeHead(403);return res.end('Origem inválida');}
+    // Embedded browsers and no-referrer forms may send an opaque/missing Origin.
+    // The local Host and unguessable per-process CSRF token remain mandatory.
+    const origin=req.headers.origin;
+    if(origin && origin!=='null' && origin!==base){res.writeHead(403);return res.end('Origem inválida');}
     let body='';
     for await(const chunk of req){body+=chunk;if(body.length>8192){res.writeHead(413);return res.end('Pedido muito grande');}}
     const form=new URLSearchParams(body);
