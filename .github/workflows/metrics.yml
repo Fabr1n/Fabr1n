@@ -1,0 +1,41 @@
+name: Profile metrics
+on:
+  schedule:
+    - cron: '23 9 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/generate-metrics.mjs
+      - .github/workflows/metrics.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@v4
+      - name: Generate public metrics
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          METRICS_USER: Fabr1n
+        run: node scripts/generate-metrics.mjs
+      - name: Commit refreshed images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/metrics
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Refresh public profile metrics"
+          git pull --rebase origin main
+          git push origin HEAD:main
