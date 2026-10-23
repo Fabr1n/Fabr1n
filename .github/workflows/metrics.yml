@@ -1,7 +1,7 @@
 name: Profile metrics
 on:
   schedule:
-    - cron: '23 9 * * *'
+    - cron: '23 */6 * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -27,6 +27,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           METRICS_USER: Fabr1n
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
         run: node scripts/generate-metrics.mjs
       - name: Commit refreshed images
         run: |
