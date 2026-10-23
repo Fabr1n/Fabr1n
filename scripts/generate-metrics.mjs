@@ -107,7 +107,15 @@ if(credentials.every(key=>process.env[key])) {
     if(!tr.ok) throw new Error('Spotify authorization '+tr.status);
     const token=await tr.json();
     const response=await fetch('https://api.spotify.com/v1/me/player/recently-played?limit=20',{headers:{Authorization:'Bearer '+token.access_token},signal:AbortSignal.timeout(15000)});
-    if(!response.ok) throw new Error('Spotify history '+response.status);
+    if(!response.ok) {
+      const body=await response.text();
+      let message=body;
+      try { const detail=JSON.parse(body); message=detail.error?.message||detail.error_description||detail.error||body; } catch {}
+      message=String(message).replace(/[\r\n]+/g,' ').slice(0,500);
+      for(const key of credentials) message=message.split(process.env[key]).join('[redacted]');
+      message=message.replace(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/gi,'[email redacted]');
+      throw new Error('Spotify history '+response.status+': '+message);
+    }
     const history=await response.json();
     const unique=new Map();
     for(const item of history.items||[]) if(item.track&&!unique.has(item.track.id)) unique.set(item.track.id,{name:item.track.name,artists:item.track.artists.map(a=>a.name).join(', '),url:item.track.external_urls.spotify});
