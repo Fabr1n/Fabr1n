@@ -1,78 +1,55 @@
-<p align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Tiago Fabrini — Researcher at CEIA, PDC participant and Software Engineering student at UFG" />
-</p>
+# Tiago H. S. Fabrini
+
+**Researcher @ CEIA · PDC · Software Engineering @ UFG**  
+Artificial intelligence, robotics and scientific computing.
+
+[LinkedIn](https://www.linkedin.com/in/tiagofabrini/) · [ORCID](https://orcid.org/0009-0004-0717-1774) · [Lattes](https://lattes.cnpq.br/3152728960471144) · [Email](mailto:fabrini@discente.ufg.br)
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/tiagofabrini/">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="https://orcid.org/0009-0004-0717-1774">ORCID</a> &nbsp;·&nbsp;
-  <a href="https://lattes.cnpq.br/3152728960471144">Lattes</a> &nbsp;·&nbsp;
-  <a href="mailto:fabrini@discente.ufg.br">Academic email</a>
+  <img src="./assets/metrics/dashboard.svg" width="100%" alt="GitHub dashboard: public activity, isometric contribution calendar, technology stack, language distribution and Spotify connection status." />
 </p>
 
-## About
+<sub>Inspired by [lowlighter/metrics](https://github.com/lowlighter/metrics). Refreshed every six hours; GitHub may delay scheduled runs. Public push events are a recent sample, not total commits. Language shares measure code bytes, not proficiency.</sub>
 
-I'm **Tiago Henrique Silva Fabrini**, a **researcher at the Center of Excellence in Artificial Intelligence (CEIA)**, participating in the **Programa de Desenvolvimento de Competências (PDC)**, and a **Software Engineering undergraduate at the Federal University of Goiás (UFG)**.
+## Selected work
 
-My interests span **artificial intelligence, algorithms, scientific computing and robotics**. My experience includes hands-on work with **Unitree G1 humanoid and Go2 quadruped robots** in the CEIA / AKCIT research environment.
-
-With a technical background in Chemistry from the Federal Institute of Goiás (IFG), I bring an interdisciplinary perspective to my studies and software projects.
-
-## Current focus
-
-| Area | Context |
-| :--- | :--- |
-| **Research** | Researcher at CEIA, participating in the PDC |
-| **Robotics** | Hands-on experience with Unitree G1 and Go2 platforms |
-| **Software engineering** | Undergraduate studies at UFG; software development and algorithms |
-| **Research interests** | Artificial intelligence, scientific computing and complex systems |
-
-## Technical toolkit
-
-| Category | Technologies |
-| :--- | :--- |
-| **Languages** | Python · Go · JavaScript |
-| **Backend** | Node.js · Express |
-| **Web** | HTML5 · CSS3 |
-| **Data & version control** | MySQL · Git · GitHub |
-
-## Public projects
-
-A selection of development work and learning repositories.
-
-| Project | Overview | Technologies |
+| Project | Focus | Stack |
 | :--- | :--- | :--- |
-| **[Python studies](https://github.com/Fabr1n/ProjetoPython)** | Object-oriented exercises and a Snake game with Turtle | Python |
-| **[UFG coursework](https://github.com/Fabr1n/ip-2026-01)** | Programming exercises and an HTTP server project | Go · PostgreSQL |
-| **[MEG platform](https://github.com/Fabr1n/HACKATHON)** | Platform connecting women entrepreneurs in Goiás with mentors, courses and opportunities | JavaScript · Node.js · Express · HTML · CSS |
+| [Python studies](https://github.com/Fabr1n/ProjetoPython) | Object-oriented exercises and a Snake game | Python · Turtle |
+| [UFG coursework](https://github.com/Fabr1n/ip-2026-01) | Programming fundamentals and an HTTP server project | Go · PostgreSQL |
+| [MEG platform](https://github.com/Fabr1n/HACKATHON) | Earlier project connecting women entrepreneurs and mentors | Node.js · Express · JavaScript |
+
+<details>
+<summary><strong>Research & academic background</strong></summary>
+
+I'm **Tiago Henrique Silva Fabrini**, a researcher at the **Center of Excellence in Artificial Intelligence (CEIA)**, participating in the **Programa de Desenvolvimento de Competências (PDC)**, and a Software Engineering undergraduate at the **Federal University of Goiás (UFG)**.
+
+My experience includes hands-on work with **Unitree G1 humanoid and Go2 quadruped robots** in the CEIA / AKCIT research environment. I'm interested in artificial intelligence, algorithms, scientific computing and complex systems.
+
+I also hold a technical qualification in **Chemistry from IFG**.
+
+**Languages:** Portuguese (native) · English (advanced / C1).
+
+</details>
 
 <details>
 <summary><strong>Earlier achievement · GO! Uai Tech 3 Hackathon</strong></summary>
 
-Contributed to the development of **MEG — Mulheres Empreendedoras Goianas**, with work spanning the web interface, backend and mentor-matching logic. Our team earned **4th place** at the GO! Uai Tech 3 Hackathon.
+Contributed to **MEG — Mulheres Empreendedoras Goianas**, with work spanning the web interface, backend and mentor-matching logic. Our team earned **4th place** at GO! Uai Tech 3.
 
-[Explore the project →](https://github.com/Fabr1n/HACKATHON)
+[Explore MEG →](https://github.com/Fabr1n/HACKATHON)
 
 </details>
 
-## GitHub metrics
+<details>
+<summary><strong>Dashboard sources & configuration</strong></summary>
 
-<p align="center">
-  <img src="./assets/metrics/overview.svg" width="100%" alt="Public repositories, stars, followers and languages on GitHub" />
-  <img src="./assets/metrics/languages.svg" width="100%" alt="Language distribution by code bytes in owned public repositories, excluding forks" />
-  <img src="./assets/metrics/activity.svg" width="100%" alt="Recent public GitHub events grouped by activity type" />
-</p>
+GitHub data comes from public REST endpoints and the public contribution calendar. The calendar reflects publicly visible contributions, which may differ from the total shown while signed in.
 
-<sub>Updated daily from the GitHub API. Language shares represent code volume, not proficiency. Activity is a sample of up to 300 public events, not a complete contribution or commit history. Visual inspiration: [lowlighter/metrics](https://github.com/lowlighter/metrics).</sub>
+The Spotify section displays recent listening only after its separate authorization is configured. It never uses demonstration tracks.
 
-## Education & languages
+- [Metrics workflow](./.github/workflows/metrics.yml)
+- [Spotify connection guide](./docs/spotify-setup.md)
+- [Public calendar data](./assets/metrics/calendar.json)
 
-- **Software Engineering, B.Sc. — in progress** · Federal University of Goiás (UFG)
-- **Technical qualification in Chemistry** · Federal Institute of Goiás (IFG)
-- **Portuguese:** native · **English:** advanced (C1)
-
----
-
-<p align="center">
-  <strong>Let's connect around research, robotics and software.</strong><br />
-  <a href="https://www.linkedin.com/in/tiagofabrini/">LinkedIn</a> · <a href="mailto:fabrini@discente.ufg.br">fabrini@discente.ufg.br</a>
-</p>
+</details>
