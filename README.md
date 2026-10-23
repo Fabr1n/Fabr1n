@@ -2,7 +2,7 @@
 
 **Researcher at CEIA · Software Engineering undergraduate at UFG**
 
-I participate in CEIA's **Programa de Desenvolvimento de Competências (PDC)**. My interests span **artificial intelligence, algorithms, robotics and scientific computing**.
+I participate in CEIA's Competency Development Project. My interests span **artificial intelligence, algorithms, robotics and scientific computing**.
 
 <p>
   <a href="https://ceia.ufg.br/"><img src="./assets/branding/ceia.png?v=2" width="176" height="54" alt="CEIA — Centro de Excelência em Inteligência Artificial" /></a>&nbsp;
