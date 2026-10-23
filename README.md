@@ -1,77 +1,68 @@
-# 👨🏻‍💻 Tiago H. S. Fabrini
-
-**`Software Engineering Student`**
-
-Hi! I'm **Tiago Henrique Silva Fabrini**, I'm 19, I'm Brazilian.
-
-Portuguese (Native)
-English (C1 level)
-
-Currently, I am pursuing a **Bachelor's degree in Software Engineering** at the **Federal University of Goiás (UFG)**.
-I was also approved for **Physics (Licentiate)** at the **University of São Paulo (USP)** via ENEM-USP, but chose to pursue Software Engineering at UFG instead.
-
-I'm particularly interested in algorithms, **artificial intelligence**, and **scientific computing**. I also have a strong interest in research and technological development related to AI, especially initiatives connected to institutions such as the **Center of Excellence in Artificial Intelligence (CEIA)** and the **AKCIT research network**, where I work hands-on with humanoid and quadruped robotics (**Unitree G1** and **Go2**).
-
-My goal is to deepen **my knowledge** in computing and contribute to **impactful technological and scientific projects**.
-
-I completed my high school at the **Federal Institute of Goiás (IFG)**, earning a **technical degree in Chemistry**.  
-
----
-
-### 🔗 Academic & Professional Profiles
-
-<p align="left">
-<a href="https://orcid.org/0009-0004-0717-1774">
-<img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"/>
-</a>
-<a href="https://linkedin.com/in/tiagofabrini">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="https://lattes.cnpq.br/3152728960471144">
-<img src="https://img.shields.io/badge/Lattes-CNPq-blue?style=for-the-badge"/>
-</a>
-<a href="https://github.com/Fabr1n?tab=followers">
-<img src="https://custom-icon-badges.demolab.com/github/followers/Fabr1n?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=followers&logoColor=white"/>
-</a>
+<p align="center">
+  <img src="./assets/profile-header.svg" width="100%" alt="Tiago Fabrini — Researcher at CEIA, PDC participant and Software Engineering student at UFG" />
 </p>
-
----
-
-### 💻 Languages & Technologies
-
-<p>
-  <img alt="Python" title="Python" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />  
-  <img alt="Go" title="Go" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" />  
-  <img alt="JavaScript" title="JavaScript" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-  <img alt="NodeJS" title="NodeJS" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
-  <img alt="Express" title="Express" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
-  <img alt="HTML5" title="HTML5" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-  <img alt="CSS3" title="CSS3" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-  <img alt="MySQL" title="MySQL" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
-  <img alt="Git" title="Git" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
-</p>
-
----
-
-### 🏆 Featured Projects & Achievements
-
-- **[GO! Uai Tech 3 Hackathon](https://github.com/Fabr1n/HACKATHON)**: Participated in developing the solution that secured **4th place** for our team, utilizing JavaScript, Node.js, Express, HTML5, and CSS3.
 
 <p align="center">
-  <a href="https://github.com/Fabr1n/HACKATHON">
-    <img alt="Hackathon Repo Card" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Fabr1n&repo=HACKATHON&theme=tokyonight" />
-  </a>
+  <a href="https://www.linkedin.com/in/tiagofabrini/">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://orcid.org/0009-0004-0717-1774">ORCID</a> &nbsp;·&nbsp;
+  <a href="https://lattes.cnpq.br/3152728960471144">Lattes</a> &nbsp;·&nbsp;
+  <a href="mailto:fabrini@discente.ufg.br">Academic email</a>
 </p>
 
----
+## About
 
-### 📊 GitHub Statistics
+I'm **Tiago Henrique Silva Fabrini**, a **researcher at the Center of Excellence in Artificial Intelligence (CEIA)**, participating in the **Programa de Desenvolvimento de Competências (PDC)**, and a **Software Engineering undergraduate at the Federal University of Goiás (UFG)**.
+
+My interests span **artificial intelligence, algorithms, scientific computing and robotics**. My experience includes hands-on work with **Unitree G1 humanoid and Go2 quadruped robots** in the CEIA / AKCIT research environment.
+
+With a technical background in Chemistry from the Federal Institute of Goiás (IFG), I bring an interdisciplinary perspective to my studies and software projects.
+
+## Current focus
+
+| Area | Context |
+| :--- | :--- |
+| **Research** | Researcher at CEIA, participating in the PDC |
+| **Robotics** | Hands-on experience with Unitree G1 and Go2 platforms |
+| **Software engineering** | Undergraduate studies at UFG; software development and algorithms |
+| **Research interests** | Artificial intelligence, scientific computing and complex systems |
+
+## Technical toolkit
+
+| Category | Technologies |
+| :--- | :--- |
+| **Languages** | Python · Go · JavaScript |
+| **Backend** | Node.js · Express |
+| **Web** | HTML5 · CSS3 |
+| **Data & version control** | MySQL · Git · GitHub |
+
+## Public projects
+
+A selection of development work and learning repositories.
+
+| Project | Overview | Technologies |
+| :--- | :--- | :--- |
+| **[Python studies](https://github.com/Fabr1n/ProjetoPython)** | Python classes and programming practice | Python |
+| **[UFG coursework](https://github.com/Fabr1n/ip-2026-01)** | Academic programming activities | Go |
+| **[MEG platform](https://github.com/Fabr1n/HACKATHON)** | Platform connecting women entrepreneurs in Goiás with mentors, courses and opportunities | JavaScript · Node.js · Express · HTML · CSS |
+
+<details>
+<summary><strong>Earlier achievement · GO! Uai Tech 3 Hackathon</strong></summary>
+
+Contributed to the development of **MEG — Mulheres Empreendedoras Goianas**, with work spanning the web interface, backend and mentor-matching logic. Our team earned **4th place** at the GO! Uai Tech 3 Hackathon.
+
+[Explore the project →](https://github.com/Fabr1n/HACKATHON)
+
+</details>
+
+## Education & languages
+
+- **Software Engineering, B.Sc. — in progress** · Federal University of Goiás (UFG)
+- **Technical qualification in Chemistry** · Federal Institute of Goiás (IFG)
+- **Portuguese:** native · **English:** advanced (C1)
+
+---
 
 <p align="center">
-  <img alt="GitHub Stats" height="195" style="padding-right:10px;" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Fabr1n&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-  <img alt="Top Languages" height="195" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Fabr1n&theme=tokyonight&layout=compact&langs_count=6" />
+  <strong>Let's connect around research, robotics and software.</strong><br />
+  <a href="https://www.linkedin.com/in/tiagofabrini/">LinkedIn</a> · <a href="mailto:fabrini@discente.ufg.br">fabrini@discente.ufg.br</a>
 </p>
-
----
-
-![Snake animation](https://raw.githubusercontent.com/Fabr1n/Fabr1n/main/dist/github-snake.svg)
