@@ -1,0 +1,30 @@
+{
+  "updated": "2026-10-23T16:51:16.577Z",
+  "scope": "Public data only. Languages exclude forks. Events are a sample of at most 300.",
+  "repositories": 5,
+  "stars": 1,
+  "followers": 30,
+  "languages": {
+    "HTML": 362384,
+    "JavaScript": 77040,
+    "Python": 42362,
+    "PowerShell": 4144,
+    "CSS": 9616,
+    "Shell": 1266,
+    "Batchfile": 1243,
+    "Procfile": 15,
+    "Go": 70410,
+    "Portugol": 2038
+  },
+  "eventCount": 18,
+  "eventTypes": {
+    "WatchEvent": 5,
+    "CreateEvent": 2,
+    "PullRequestEvent": 4,
+    "IssuesEvent": 2,
+    "PushEvent": 4,
+    "MemberEvent": 1
+  },
+  "oldest": "2026-09-28",
+  "latest": "2026-10-23"
+}
