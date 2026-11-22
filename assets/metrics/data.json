@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T07:06:09.951Z",
+  "updated": "2026-11-22T19:50:51.857Z",
   "scope": "Public data only. Languages exclude forks. Events are a sample of at most 300.",
   "repositories": 5,
   "stars": 1,
@@ -16,14 +16,14 @@
     "Go": 70410,
     "Portugol": 2038
   },
-  "eventCount": 39,
+  "eventCount": 38,
   "eventTypes": {
     "WatchEvent": 6,
     "MemberEvent": 1,
     "PushEvent": 29,
-    "CreateEvent": 2,
+    "CreateEvent": 1,
     "PullRequestReviewEvent": 1
   },
-  "oldest": "2026-10-21",
+  "oldest": "2026-10-23",
   "latest": "2026-11-17"
 }
