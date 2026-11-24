@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T00:04:16.503Z",
+  "updated": "2026-11-24T10:06:16.215Z",
   "scope": "Public data only. Languages exclude forks. Events are a sample of at most 300.",
   "repositories": 6,
   "stars": 1,
@@ -17,14 +17,13 @@
     "Portugol": 2038,
     "R": 1
   },
-  "eventCount": 8,
+  "eventCount": 6,
   "eventTypes": {
     "IssueCommentEvent": 1,
     "IssuesEvent": 1,
     "WatchEvent": 3,
-    "MemberEvent": 1,
-    "PushEvent": 2
+    "MemberEvent": 1
   },
-  "oldest": "2026-10-23",
+  "oldest": "2026-11-12",
   "latest": "2026-11-23"
 }
