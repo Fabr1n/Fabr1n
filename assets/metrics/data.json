@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T08:51:46.051Z",
+  "updated": "2026-11-25T21:50:13.805Z",
   "scope": "Public data only. Languages exclude forks. Events are a sample of at most 300.",
   "repositories": 6,
   "stars": 1,
@@ -14,8 +14,7 @@
     "Batchfile": 1243,
     "Procfile": 15,
     "Go": 70410,
-    "Portugol": 2038,
-    "R": 1
+    "Portugol": 2038
   },
   "eventCount": 6,
   "eventTypes": {
